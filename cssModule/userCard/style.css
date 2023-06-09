@@ -5,13 +5,12 @@
     font-weight: 600;
 }
 
-#userCircle {
+.userCircle {
 margin-top: 30px;
 margin-left: 20px;
-
 }
 
-#userName, #location, #skills, #settings {
+.userName, .location, .skills, .settings {
     margin-left: 20px;
 }
 
@@ -21,29 +20,29 @@ margin-left: 20px;
 
 }
 
-#userName {
+.userName {
     font-size: 1.5rem;
     margin-top: 35px;
 }
 
-#location {
+.location {
     margin: 20px;
 }
 
-#skills {
+.skills {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#skills p {
+.skills p {
     margin: 0;
 }
 
-#settings {
+.settings {
     margin-bottom: 20px;
 }
 
-#settings a {
+.settings a {
     color: #2b78e4;
     margin-left: 3px;
 }
