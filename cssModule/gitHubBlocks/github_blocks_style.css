@@ -1,0 +1,39 @@
+body {
+background-color: #eee;
+font-family: sans-serif;
+}
+img.octocat {
+    height: 200px;
+}
+h1 {
+text-align: center;
+}
+
+#row1 {
+    display: flex;
+    background-color: rgb(80, 223, 255);
+    justify-content:space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+#row2 {
+    display: flex;
+    background-color: rgb(208, 164, 204);
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+#row3 {
+    display: flex;
+    background-color: white;
+    justify-content:space-around;
+    padding: 20px;
+    margin: 20px
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+div {
+    margin: 20px;
+}
+.search {
+    font-size:medium;
+    font-weight: bold;
+    shape-outside: ellipse();
+    border: 2px solid #00d1b2;
+    border-radius: 18px;
+    color: #00d1b2;
+    background-color: #eeeeee69;
+    box-shadow: none;
+    width: 150px;
+    height: 36px;
+}
+
+.search:hover {
+    background-color: #00d1b2;
+    color: white;
+}
+
+.add:hover {
+background-color: #FFF;
+color: #00d1b2;
+/* border: 3px #00d1b2; */
+}
+
+.add {
+    font-size: x-large;
+    background-color: #00d1b2;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid #00d1b2;
+    width: 40px;
+    height: 40px;
+}
+
+#createAccount {
+    color: white;
+    font-size: medium;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px #000;
+    width: 180px;
+    height: 35px
+}

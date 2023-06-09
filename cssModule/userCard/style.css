@@ -1,0 +1,49 @@
+.card {
+    width: 500px;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+}
+
+#userCircle {
+margin-top: 30px;
+margin-left: 20px;
+
+}
+
+#userName, #location, #skills, #settings {
+    margin-left: 20px;
+}
+
+.headBar {
+    background-color: #17a2b8;
+    height: 60px;
+
+}
+
+#userName {
+    font-size: 1.5rem;
+    margin-top: 35px;
+}
+
+#location {
+    margin: 20px;
+}
+
+#skills {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#skills p {
+    margin: 0;
+}
+
+#settings {
+    margin-bottom: 20px;
+}
+
+#settings a {
+    color: #2b78e4;
+    margin-left: 3px;
+}
