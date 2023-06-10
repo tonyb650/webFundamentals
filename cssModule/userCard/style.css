@@ -6,6 +6,9 @@
 }
 
 .userCircle {
+border-radius: 50%;
+background-color: white;
+padding: 3px;
 margin-top: 30px;
 margin-left: 20px;
 }
@@ -15,7 +18,7 @@ margin-left: 20px;
 }
 
 .headBar {
-    background-color: #17a2b8;
+    background-color: #17a4ba;
     height: 60px;
 
 }
