@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
 }
 
 header {
@@ -22,7 +21,6 @@ header {
 }
 
 .headerBoxLeft {
-    display:inline;
     display: flex;
     justify-content: flex-start;
 }
@@ -60,6 +58,7 @@ main {
     flex-direction: column;
     margin-right:20px;
 }
+
 .userCard {
     border: 3px solid gray;
     margin-bottom: 20px;
@@ -82,10 +81,6 @@ main {
 .smallHeadshot {
     border-radius: 50%;
     padding-right:5px;
-    /* border: 1px solid lightgray; */
-    /* margin-top: 17px; */
-    /* padding: 5px; */
-    /* background-color: white; */
 }
 
 .contentBox h2,
@@ -94,7 +89,6 @@ main {
 #userCardLocation,
 #userCardProfile {
     padding-left: 20px;
-    /* padding-bottom: 5px; */
     padding-top: 7px;
 }
 
@@ -138,16 +132,7 @@ main {
 .sideBar {
     flex:1;
 }
-/* .connRequests {
-        border: 3px solid gray;
-        margin-bottom: 20px;
-}
 
-.yourConn {
-    border: 3px solid gray;
-    margin-bottom: 20px;
-}
- */
 .boxHead {
     display:flex;
     align-items: center;
@@ -167,10 +152,7 @@ main {
     border-radius: 50%;
     padding: 3px;
     margin-right: 10px;
-    /* border: 1px solid black; */
     background-color: gray;
-    /* width: 3rem; */
-    /* height: 20px; */
 }
 
 .viewMore {
