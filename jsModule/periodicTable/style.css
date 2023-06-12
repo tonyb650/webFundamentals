@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    height: 50px;
+    width: 50px;
+    border: 1px black solid;
+    box-shadow: 4px 4px 4px gray;
+    padding: 10px;
+    margin: 10px;
+}

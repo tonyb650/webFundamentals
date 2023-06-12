@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 id="title">
+            Dojonary
+        </h1>
+        <input type="text" name="searchBox" id="searchBox" placeholder="Search">
+        <button id="logInOut" onclick="toggleLogState(this)" >Login</button>
+    </header>
+    <main class="container">
+        <div class="leftMain">
+            <div class="wordCard">
+                <div class="wordCardDetails">
+                    <h2 class="wordName">
+                        ninja
+                    </h2>
+                    <div class="speechPart">
+                        noun
+                    </div>
+                    <div class="speechPartPlural">
+                        Plural: <i>ninjas</i>
+                    </div>
+                    <button class="like" onclick="like()">13 likes</button>                 
+                </div>
+                <div class="wordCardDefinition">
+                    <p>A practitioner skilled in the&nbsp;<a href="#">Japanese</a>&nbsp;art of&nbsp;<a href="#">Ninjitsu</a></p>
+                </div>
+            </div>
+            <div class="wordCard">
+                <div class="wordCardDetails">
+                    <h2 class="wordName">
+                        ninja
+                    </h2>
+                    <div class="speechPart">
+                        noun
+                    </div>
+                    <div class="speechPartPlural">
+                        Plural: <i>ninjas</i>
+                    </div>
+                    <button class="like" onclick="like()">37 likes</button>                 
+                </div>
+                <div class="wordCardDefinition">
+                    <!-- A practitioner skilled in the&nbsp;<a href="#">Japanese</a>&nbsp;art of&nbsp;<a href="#">Ninjitsu</a> -->
+                    <p>A&nbsp;<a href="#">programmer</a>&nbsp;who breaks down problems with&nbsp;<a href="#">Zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="rightMain">
+            <div class="addDefinitionBox">
+                <h3 id="definedByYou">Dojonary is defined by YOU</h3>
+                <button class="addDefinition" onclick="hideButton(this)">Add Definition</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
