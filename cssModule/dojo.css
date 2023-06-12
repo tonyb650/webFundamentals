@@ -1,0 +1,78 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Teal capsule-shaped button with hover - see "ButtonUp" Assignment */
+.search {
+    font-size:medium;
+    font-weight: bold;
+    shape-outside: ellipse();
+    border: 2px solid #00d1b2;
+    border-radius: 18px;
+    color: #00d1b2;
+    background-color: #eeeeee69;
+    box-shadow: none;
+    width: 150px;
+    height: 36px;
+}
+.search:hover {
+    background-color: #00d1b2;
+    color: white;
+}
+
+/* Flexbox column formatting - see "Flexible Columns" Assignment */
+.row {
+    display: flex;
+    background-color: antiquewhite;
+    height: 60px;
+    color: white;
+}
+.col, .col-2, .col-3 {
+    flex: 1;
+    background-color: teal;
+    margin: 5px;
+    padding: 15px;
+}
+.col-2 {
+    flex:2
+}
+.col-3 {
+    flex:3
+}
+
+/* Navbar Classes - "FlexNavBar" Assignment */
+.nav {
+    display: flex;
+    background-color: #777;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.nav-title {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
