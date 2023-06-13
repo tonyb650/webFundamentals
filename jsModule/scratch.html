@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scratch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Hello World</h1>
-    <div class="nav">
-        <img src="img/user-circle.png" alt="logo">
-        <h1>Hello World</h1>
+    <h1 id="title">the count is 1</h1>
+    <button id="add" onclick="add1()">+</button>
+    <button id="subtract" onclick="subtract1()">-</button>
+
+    <h2>Cat vs Dog</h2>
+    <img src="img/adrien-s.jpg" alt="fav animal" id="favAnimal">
+    <div>    
+        <button onclick="pickCat(this)">Pick Cat</button>
+        <button onclick="pickDog(this)">Pick Dog</button>
     </div>
-    <video onmouseover="over(this)" onmouseout="out(this)" width="320" height="240" autoplay muted>
-        <source src="videoPreview/assets/pexels-pranjall-kumar-6185321-1920x1080-60fps.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <button onclick="setActive(this)">Switch to dark mode</button>
 
     <script src="script.js"></script>
 </body>

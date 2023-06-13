@@ -1,16 +1,20 @@
-// Both of these will select the h1 tag
-var h1 = document.querySelector("h1");
-var title = document.querySelector("#title");
-console.log("h1" + h1);
-console.log("title" + title);
+console.log("page loaded...");
+// let darkMode = false;
 
-var logoImg = document.querySelector(".nav h1");
-console.log(logoImg);
-
-function over(element) {
-    alert("mouseover");
-}
-
-function out(element) {
-    alert("mouseout");
+function setActive(element) {
+    // console.log(element.style.backgroundColor);
+    // if (element.style.backgroundColor=="rgb(34, 34, 34)") {
+    if (element.classList.contains("dark-mode")) {
+    //     element.style.backgroundColor = "#fff";
+    //     element.style.color = "#222";
+        element.classList.remove("dark-mode");
+        element.innerText = "Switch to dark mode";
+        // darkMode=false;
+    } else {
+    //     element.style.backgroundColor = "#222";
+    //     element.style.color = "#fff";
+        element.classList.add("dark-mode");
+        element.innerText = "Switch to light mode";
+        // darkMode = true;
+    }
 }

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #222;
+    color: white;
+    padding: 3px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 0px 10px;
+    /* border: 1px solid black; */
+}
+
+#userID {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px #222 solid;
+    padding: 20px 5px 5px 5px;
+    margin-right:20px;
+    max-height: 150px;
+}
+
+#addAvatar {
+    margin: 10px 0px;
+}
+
+.feedList {
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.feedEntry {
+/* width: 400px; */
+border: 3px solid #222;
+padding: 10px 20px;
+margin-bottom: 6px;
+}
+
+.feedHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.feed {
+
+}
+
+#feedOneLikes {
+
+}
+
+button {
+    background-color: yellow;
+    box-shadow: 4px 4px #222;
+    height: 2.0rem;
+    width: 4.0rem;
+}
+
+.feedDescription {
+    /* border: 1px black solid; */
+}

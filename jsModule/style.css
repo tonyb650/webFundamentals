@@ -1,0 +1,10 @@
+.dark-mode {
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 4px 4px #222;
+
+}
