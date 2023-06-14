@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <h1>DojoWeather</h1>
+            <ul class="cityList">
+                <li onclick="cityChange(0)">Burbank</li>
+                <li onclick="cityChange(1)">Chicago</li>
+                <li onclick="cityChange(2)">Dallas</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="cityHead">
+            <h2>San Jose</h2>
+            <span class="tempSelect">
+                show temperature in
+                <select onchange="changeTempUnits()" name="TempUnits" id="tempUnits">
+                    <option value="oC">&deg;C</option>
+                    <option value="oF">&deg;F</option>
+                </select>
+            </span>
+        </div>
+        <div class="mainForecast">
+            <div class="dailyForecast">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="Some Rain" class="weatherIcon">
+                <p>some rain</p>
+                <div class="dailyTempRange">
+                    <span class="highTemp" id="dayOneHigh">24&deg;</span><span class="lowTemp" id="dayOneLow">18&deg;</span>
+                </div>
+            </div>
+            <div class="dailyForecast">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="Some Sun" class="weatherIcon">
+                <p>some sun</p>
+                <div class="dailyTempRange">
+                    <span class="highTemp"  id="dayTwoHigh">24&deg;</span><span class="lowTemp" id="dayTwoLow">18&deg;</span>
+                </div>
+            </div>
+            <div class="dailyForecast">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="Some Clouds" class="weatherIcon">
+                <p>some clouds</p>
+                <div class="dailyTempRange">
+                    <span class="highTemp"  id="dayThreeHigh">24&deg;</span><span class="lowTemp" id="dayThreeLow">18&deg;</span>
+                </div>
+            </div>
+            <div class="dailyForecast">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="Some Sun" class="weatherIcon">
+                <p>some sun</p>
+                <div class="dailyTempRange">
+                    <span class="highTemp"  id="dayFourHigh">24&deg;</span><span class="lowTemp" id="dayFourLow">18&deg;</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="cookieAlert" id="cookieConsent">
+        <img src="assets/cookie.png" alt="Cookie image">
+        <div>
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="dismiss()">I accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+    <h1>OnInput - Example</h1>
+    <p>Hello, my name is <span id="name"></span>.</p>
+    <input type="text" oninput="setName(this)" name="name" placeholder="Your name here">
+    
+    <h1>OnSelect - Example</h1>
+    <select name="food" onchange="pickFood(this)">
+        <option>Pizza</option>
+        <option>Kebabs</option>
+        <option>Sandwich</option>
+        <option>Sushi</option>
+
+    </select>
+    <button onclick="order()">Order food</button>    
+
+    <div class="card">
+        <p>Hello my name is: </p>
+        <h3 id="name-tag">Example</h3>
+    </div>
+    <input type="text" value="Example" oninput="setName(this)">
+    <script src="script.js"></script>
+</body>
+</html>

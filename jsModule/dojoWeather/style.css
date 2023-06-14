@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* header is the colored bar that spans entire viewport*/
+header {
+    background-color:lightskyblue;
+}
+
+.navBar, main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.cityList li {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.cityHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.mainForecast {
+    display: flex;
+}
+.dailyForecast {
+    flex: 1;
+    background-color: #eee;
+    margin: 5px;
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+.dailyForecast p {
+    margin: 20px 0px;
+}
+.weatherIcon {
+    border-radius: 50%;
+    width: 50%;
+}
+.dailyTempRange {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.highTemp {
+    color: red;
+}
+
+.lowTemp {
+    color: lightskyblue;
+}
+.cookieAlert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #eee;
+    position:fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
