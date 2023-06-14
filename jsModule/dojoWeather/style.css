@@ -91,3 +91,10 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#cookieImage {
+    margin: 0px 15px;
+}
+#acceptButton {
+    width: 150px;
+    margin: 15px;
+}
