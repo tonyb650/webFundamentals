@@ -65,13 +65,14 @@ function randomPizza (ingredientChoices) {
     randomPie.cheeses = selectedIngredients;
 
     // toppings choice(s)
-    selectedIngredients = [];
+    // selectedIngredients = [];
+    randomPie.toppings = [];
     for (let i = 0; i < ingredientChoices[3].length; i++){
         if (Math.random()>.5) { //yes, include this topping
-            selectedIngredients.push(ingredientChoices[3][i]);
+            randomPie.toppings.push(ingredientChoices[3][i]); // this works, nice!
         }
     }
-    randomPie.toppings = selectedIngredients;
+    // randomPie.toppings = selectedIngredients;
 
     // garnishes choice(s)
     selectedIngredients = [];
@@ -87,8 +88,9 @@ function randomPizza (ingredientChoices) {
 let myPizza = randomPizza(ingredientChoices);
 console.log("");
 console.log("RANDOM PIE:");
-console.log(myPizza.crustType);
+console.log(myPizza);
+/* console.log(myPizza.crustType);
 console.log(myPizza.sauceType);
 console.log(myPizza.cheeses);
 console.log(myPizza.toppings);
-console.log(myPizza.garnishes);
+console.log(myPizza.garnishes); */
