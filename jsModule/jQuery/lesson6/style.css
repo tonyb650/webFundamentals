@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content-box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.content-after {
+    display: none;
+}

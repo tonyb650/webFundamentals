@@ -8,3 +8,7 @@
     box-shadow: 4px 4px #222;
 
 }
+
+img {
+    transition: 5000ms;
+}   

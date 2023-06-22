@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+.subject {
+    height: 100px;
+    width: 200px;
+    margin: 100px
+}
+
+main {
+    display: flex;
+    background-color:  #bbb;
+
+}
+
+nav {
+    width: 10vw;
+    background-color: #eee;
+    padding: 20px;
+}
+.central {
+    width: 90vw;
+    height: 1000px;
+}
+
+.subject h3 {
+    background-color: red;
+}
+
+.subject p {
+    background-color: yellow;
+}

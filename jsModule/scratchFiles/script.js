@@ -18,3 +18,8 @@ function setActive(element) {
         // darkMode = true;
     }
 }
+
+function scale(element, value) {
+    element.style.transform = "scale(" + value + ")";
+}
+

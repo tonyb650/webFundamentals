@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 2px solid #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightcyan;
+}
+.card img {
+    height: 128px;
+    border-radius: 50%;
+
+}
+
+.flex-1 {
+    flex:1;
+}
