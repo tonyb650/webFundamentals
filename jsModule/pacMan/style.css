@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+div.row {
+    height: 20px;
+}
+
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+    /* border: 1px solid white; */
+    /* margin: -2px 1px; */
+}
+
+div.coin {
+    background-image: url('assets/coin.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.cherry {
+    background-image: url('assets/cherry2.png');
+    /* background-size: 50%; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div#pacman {
+    background-image: url('assets/pacman_large.gif');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div#blueGhost {
+    background-image: url('assets/blueGhost.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div.empty {
+
+}
+
+div#score, #lives{
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 30px;
+    margin: 20px;
+    position: absolute;
+}
+
+#score {
+    top: 375px;
+    left: 100px;
+}
+
+#lives {
+    top: 375px;
+    left: 370px;
+}
+
+#result {
+    color: white;
+}
