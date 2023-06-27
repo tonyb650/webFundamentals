@@ -3,111 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Pac-man</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="headerBox">
-            <div class="headerBoxLeft">
-                <h1>Profile</h1>
-                <ul class="header-links">
-                    <li>Home</li>
-                    <li>My Profile</li>
-                    <li>Find Connections</li>
-                </ul>
-            </div>
-            <button class="header-btn">Sign Out</button>
-        </div>
-    </header>
-    <main>
-        <div class="mainContent">
-            <div class="cardHead"><img src="img/headshots/adrien-s.jpg" height="75" class="headshot" alt="Adrien S.">
-            </div>
-            <div class="contentBox">
-                <p class="userCardUserName">Jane Doe</p>
-                <div id="userCardLocation"><img src="img/icons/map-marker.png" width="10" alt="Map pointer"> Seattle</div>
-                <p>Developer | Engineer | Problem Solver</p>
-                <p>Master of shadows and the Internet</p>
-                <div id="userCardProfile"><img src="img/icons/gear.png" width="15" alt="settings icon"> <a href="#">edit profile</a></div>
-            </div>
-            <div class="boxHead">
-                Education
-            </div>
-            <div class="contentBox">
-                <h3>Coding Dojo - Full Stack Bootcamp</h3>
-                <p class="educationDates">Dec 2019 - Mar 2020</p>
-                <p>Triple black belt in Python, MERN, and C#...</p>
-            </div>
-        </div>
-        <div class="sideBar">
-            <div class="boxHead">
-                <div class="connectionCount">&nbsp;2&nbsp;</div>
-                Connection Requests
-            </div>
-            <div class="contentBox">
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/todd-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Todd E
-                    </div>
-                    <div>
-                        <img src="img/icons/accept-circle.png" height="25" alt="Accept">
-                        <img src="img/icons/close-circle.png" height="25" alt="Reject">
-                    </div>
-                </div>
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/phil-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Phil K
-                    </div>
-                    <div>
-                        <img src="img/icons/accept-circle.png" height="25" alt="Accept">
-                        <img src="img/icons/close-circle.png" height="25" alt="Reject">
-                    </div>
-                </div>
-
-            </div>
-            <div class="boxHead">
-                <div class="connectionCount">&nbsp;500+&nbsp;</div>
-                Your Connections
-            </div>
-            <div class="contentBox">
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/adrien-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Adrien D
-                    </div>
-                </div>
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/anne-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Ann J
-                    </div>
-                </div>
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/alayne-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Alayne T
-                    </div>
-                </div>
-                <div class="connectionRequestsList">
-                    <div class="connectionListLeft">
-                        <img src="img/headshots/arry-s.jpg" height="25" class="smallHeadshot" alt="Adrien S.">
-                        Arry Y
-                    </div>
-                </div>
-                <div class="boxBottom">
-                    <p class="viewMore">
-                        <a href="#">View More</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </main>
-
+     <div class="container">
+        <div id="world"></div>
+        <div id="pacman"></div>
+        <div id="blueGhost"></div>
+        <div id="score">0</div>
+        <div id="lives">3</div>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
 </body>
 </html>

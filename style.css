@@ -1,163 +1,84 @@
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
     background-color: black;
 }
 
-.headerBox {
-    display: flex;
-    justify-content: space-between;
+div.row {
+    height: 20px;
+}
+
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+    /* border: 1px solid white; */
+    /* margin: -2px 1px; */
+}
+
+div.coin {
+    background-image: url('assets/coin.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.cherry {
+    background-image: url('assets/cherry2.png');
+    /* background-size: 50%; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div#pacman {
+    background-image: url('assets/pacman_large.gif');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div#blueGhost {
+    background-image: url('assets/blueGhost.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div.empty {
+
+}
+
+div#score, #lives{
     color: white;
-    padding: 5px;
-    max-width: 800px;
-    margin: auto;
+    border: 1px solid white;
+    width: 40px;
+    height: 30px;
+    margin: 20px;
+    position: absolute;
 }
 
-.headerBoxLeft {
-    display: flex;
-    justify-content: flex-start;
+#score {
+    top: 375px;
+    left: 100px;
 }
 
-.header-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#lives {
+    top: 375px;
+    left: 370px;
 }
 
-.header-links li {
-    margin: 0px 20px;
-}
-
-.header-btn {
-    height: 50%;
-    margin: 10px;
-    background-color: #17a4ba;
+#result {
     color: white;
-    padding: 3px 10px;
-}
-
-main {
-    display:flex;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-.mainContent {
-    flex: 2;
-    border: 1px;
-    display: flex;
-    flex-direction: column;
-    margin-right:20px;
-}
-
-.userCard {
-    border: 3px solid gray;
-    margin-bottom: 20px;
-}
-
-.cardHead {
-    background-color: #17a4ba;
-    height: 60px;
-    padding-left: 20px;
-}
-
-.headshot {
-    border-radius: 50%;
-    border: 2px solid lightgray;
-    margin-top: 17px;
-    padding: 3px;
-    background-color: white;
-}
-
-.smallHeadshot {
-    border-radius: 50%;
-    padding-right:5px;
-}
-
-.contentBox h2,
-.contentBox h3,
-.contentBox p, 
-#userCardLocation,
-#userCardProfile {
-    padding-left: 20px;
-    padding-top: 7px;
-}
-
-.userCardUserName {
-    margin-top: 40px;
-}
-#userCardLocation {
-    padding: 8px 25px;
-}
-
-.connectionRequestsList {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-}
-
-.connectionListLeft {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-}
-#userCardProfile {
-    padding: 8px 20px;
-    margin-bottom: 8px; 
-}
-
-#userCardProfile a {
-    color: #2678e4;
-}
-
-.educationDates {
-    color: gray;
-}
-.contentBox {
-    border-left: 3px solid gray;
-    border-right: 3px solid gray;
-    border-bottom: 3px solid gray;
-    margin-bottom: 20px;
-    padding-bottom: 8px;
-}
-.sideBar {
-    flex:1;
-}
-
-.boxHead {
-    display:flex;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 8px;
-}
-
-.boxBottom {
-    border-top: 3px solid gray;
-}
-
-.connectionCount {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    border-radius: 50%;
-    padding: 3px;
-    margin-right: 10px;
-    background-color: gray;
-}
-
-.viewMore {
-    margin: 5px -5px;
-}
-
-.viewMore a {
-    color: #2678e4;
 }
